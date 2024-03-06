@@ -25,7 +25,9 @@ SECRET_KEY = "django-insecure-9#qp-)kb=7d!c98%g^^yqr*cr2w%n)(e0t7q^3%ux%ya-k=%wc
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# settings.py
+ALLOWED_HOSTS = ['pymoto.pythonanywhere.com', 'your_pythonanywhere_subdomain.pythonanywhere.com']
+
 
 
 # Application definition
